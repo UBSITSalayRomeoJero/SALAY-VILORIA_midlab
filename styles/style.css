@@ -53,7 +53,6 @@ nav ul li a:hover {
 /* Hero Section */
 .welcome {
     padding: 80px 20px;
-    background: url("../assets/images/background.jpg") no-repeat center center/cover;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
@@ -85,6 +84,66 @@ nav ul li a:hover {
 
 .btn:hover {
     background: #941f1f;
+}
+
+/* Login Container */
+.login-container {
+    display: inline-block;
+    background: white;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Login Links */
+.login-links {
+    margin-top: 10px;
+}
+
+.login-links a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login-links a:hover {
+    text-decoration: underline;
 }
 
 /* Footer */
