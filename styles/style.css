@@ -146,6 +146,77 @@ button:hover {
     text-decoration: underline;
 }
 
+/* Center ONLY the Forgot Password Form */
+.forgot-password-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Forgot Password Container */
+.forgot-password-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.forgot-password-container h2 {
+    margin-bottom: 10px;
+}
+
+.forgot-password-container p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.forgot-password-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot-password-container label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.forgot-password-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forgot-password-container button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.forgot-password-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Back to Login Link */
+.back-to-login {
+    margin-top: 10px;
+}
+
+.back-to-login a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.back-to-login a:hover {
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     background: #941f1f;
