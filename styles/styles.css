@@ -1,0 +1,381 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #a09b9be0;
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #941f1f;
+    padding: 15px 30px;
+    color: rgb(163, 163, 163);
+}
+
+.logo img {
+    width: 100px; /* Adjust logo size */
+}
+
+.team-members img {
+    width: 150px;  /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image is cropped properly */
+    border-radius: 50%; /* Makes it circular if desired */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: white;
+    color: #941f1f;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.welcome {
+    padding: 80px 20px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.welcome h1 {
+    font-size: 3.5rem;
+}
+
+.welcome p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 10px;
+    background: #941f1f;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #941f1f;
+}
+
+/* Login Container */
+.login-container {
+    display: inline-block;
+    background: white;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Login Links */
+.login-links {
+    margin-top: 10px;
+}
+
+.login-links a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login-links a:hover {
+    text-decoration: underline;
+}
+
+/* Center ONLY the Forgot Password Form */
+.forgot-password-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Forgot Password Container */
+.forgot-password-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.forgot-password-container h2 {
+    margin-bottom: 10px;
+}
+
+.forgot-password-container p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.forgot-password-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot-password-container label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.forgot-password-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forgot-password-container button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.forgot-password-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Back to Login Link */
+.back-to-login {
+    margin-top: 10px;
+}
+
+.back-to-login a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.back-to-login a:hover {
+    text-decoration: underline;
+}
+
+/* About Us Page */
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-container h2 {
+    color: #941f1f;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+.about-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.team-section {
+    margin-top: 30px;
+}
+
+.team-section h3 {
+    color: #941f1f;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.team-member h4 {
+    margin-top: 10px;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.team-member p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-container {
+        width: 90%;
+    }
+    
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member {
+        width: 80%;
+    }
+}
+
+/* Contact Page Styling */
+.contact-container {
+    width: 50%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-container h2 {
+    margin-bottom: 15px;
+    color: #941f1f;
+}
+
+.contact-container p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-container label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-container button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background: #941f1f;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #b9b9b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
