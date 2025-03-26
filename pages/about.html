@@ -5,59 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" type="text/css"
-    href="styles.css">
+    href="../styles/styles.css">
 </head>
 <body>
-    <Header>
+    <header>
         <div class="logo">
-            <img src="/assets/images/UBLogo.png" alt="UB Logo">
+            <img src="../assets/images/UBLogo.png" alt="UB Logo">
         </div>
         <nav>
             <ul>
-                <li><a href="pages/about.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-    </Header>
+    </header>
 
-    <main>
-        <section class="About Us">
-            <h1>About Us</h1>
-            <p>Good  morning!Our IT laboratory provides a dynamic environment for exploring and experimenting with cutting-edge technologies in the information technology field. It is equipped with advanced computing resources, software tools,
-                and networking equipment that enable studentsand researchers to engage in hands-on activities. From software development and system administration to cybersecurity and artificial intelligence, our lab offers opportunities to design,
-                build, and test various IT solutions. Whether working on programming projects, learning about cloud computing, or exploring the latest advancements in data science, the laboratory aims to foster innovation, critical thinking, and
-                technical expertise for the IT professionals of tomorrow.It focuses on IT-related laboratory activities, highlighting areas such as software development, system administration, cybersecurity, and more.</p>  
-            <h2>Objectives and Goals</h2>
-                <ul>
-                    <li>Implement basic HTML5 semantic elements appropriately.</li>
-                    <li>Create simple responsive layouts using CSS3.</li>
-                    <li>Define and apply custom CSS selectors (classes, IDs, and pseudo-selectors).</li>
-                    <li>Apply fundamental principles ethical and social interaction design guidelines.</li>
-                    <li>Create consistent navigation and footer components.</li>
-                </ul>
-            <h2>Information aboout the instructors or organizers</h2>
-            <p>Instructor of the section IDA3 first year, HUMCOM sub-concept, Information Technology program.</p>
+    <main class="about-container">
+        <h1>About Us</h1>
+        <p>Welcome to SALAY-VILORIA website! This platform was created as part of a laboratory activity to showcase our ability to develop a well-structured and responsive website using HTML and CSS.</p>
+        
+        <section class="objectives">
+            <h2>Our Objectives & Goals</h2>
             <ul>
-                <li><strong>Erna-Kristi Martinez</strong></li>
+                <li>To demonstrate the use of HTML5 semantic elements.</li>
+                <li>To create responsive layouts using CSS3.</li>
+                <li>To apply ethical and user-friendly interaction design principles.</li>
+                <li>To implement consistent navigation and content flow.</li>
             </ul>
+        </section>
 
-            <h2>Photos Related To The Activity</h2>
-            <img src="/assets/images/CSS.png" alt="CSS Logo">
-            <img src="/assets/images/Html code.png" alt="HTML code example">
-            <img src="/assets/images/images.png" alt="Related activity image">
+        <section class="team">
+            <h2>Meet the Team</h2>
+            <p>This project was developed by a pair with dedicated individuals passionate about web development and user experience.</p>
+            <div class="team-members">
+                <div class="member">
+                    <img src="../assets/images/SALAYHUMCOM.jpg" alt="Team Member 1">
+                    <p>Romeo Jero Salay - Web Developer</p>
+                </div>
+                <div class="member">
+                    <img src="../assets/images/VILORIAHUMCOM.jpg" alt="Team Member 2">
+                    <p>Remalyn Viloria - Designer</p>
+                </div>
+            </div>
         </section>
     </main>
-    <Footer>
-        <div clas="contact-informaton">
-            <p>Contact us at: 20246004@s.ubaguio.edu & 20198552@s.ubaguio.edu   
-        </div>
 
-        <div class="Social media links">
-            <a href="https://facebook.com" target="_blank">Facebook</a>
-            <a href="https://instagram.com" target="_blank">Instagram</a>    
-        </div>
-        <p>&copy; 2025 University of Baguio. All rights reserved.</p>
-    </Footer>
+    <footer>
+        <p>Contact us at <a href="mailto:20198552@s.ubaguio.edu">info@website.com</a></p>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
 </body>
 </html>
